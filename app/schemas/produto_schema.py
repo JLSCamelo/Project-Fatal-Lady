@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 class ProdutoBase(BaseModel): # a base de todos os atributos
     marca: str
-    tamanho: str
+    tamanho: int
     estoque: int
     preco: float
     nome: str
