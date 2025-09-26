@@ -10,7 +10,7 @@ class ProdutoDB(Base):
 
     id_produto = Column(Integer, primary_key=True, index=True)
     marca = Column(String, index=True)
-    tamanho = Column(String)
+    tamanho = Column(Integer)
     estoque = Column(Integer)
     preco = Column(Float)
     nome = Column(String, index=True)
